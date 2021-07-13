@@ -1,0 +1,24 @@
+.Card {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border: solid red 3px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px 20px 20px 0;
+}
+
+.Title {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255, 16, 16);
+    /* margin-bottom: 20px; */
+}
+
+.Content {
+    text-align: center;
+
+    color: rgb(34, 34, 34);
+}
