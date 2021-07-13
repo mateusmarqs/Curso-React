@@ -13,5 +13,5 @@ Comando utilizaro para iniciar um projeto React.
 Para rodar a aplicação, utiliza-se o seguinte comando:
 
 ~~~javascript
-npx start
+npm start
 ~~~

@@ -6,13 +6,22 @@ import Fragmento from './components/basicos/Fragmento'
 import Primeiro from './components/basicos/Primeiro'
 import Aleatorio from "./components/basicos/Aleatorio"
 import Card from "./components/layout/Card"
+import Familia from './components/basicos/Familia'
+import MembroFamilia from './components/basicos/MembroFamilia'
 
 export default () => {
     return (
         <div id='App'>
             <h2 className='title'>Fundamentos React (Arrow)</h2>
             <div className="container">
-                <Card titulo='#04 Desafio aleatório'>  
+                <Card titulo='#05 Familia' color='#009aff'>  
+                    <Familia sobrenome='Costa'>
+                        <MembroFamilia name='Mateus' />
+                        <MembroFamilia name='Carlos' />
+                        <MembroFamilia name='João' />
+                    </Familia>
+                </Card>
+                <Card titulo='#04 Desafio aleatório' color='#080'>  
                     <Aleatorio 
                         max={20}
                         min={1}
