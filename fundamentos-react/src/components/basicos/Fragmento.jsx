@@ -1,11 +1,9 @@
 import React from "react"
 
-export default function Fragmentos(props) {
+export default function Fragmentos(options) {
     return (
-        // Não envolve mais o conteudo dentro de uma <div>, mas sim envia direto.
-        <> 
+        <div>
             <h2>Fragmento</h2>
-            <p>Cuidado com esse erro!</p>
-        </>
+        </div>
     )
 }
