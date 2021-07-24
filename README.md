@@ -5,7 +5,7 @@ Repositório criado para armazenar os conteúdos de um curso sobre React.
 ## Instalação do React
 
 ~~~javascript
-npx creact-react-app [NOME DA PASTA AQUI]
+npx create-react-app [NOME DA PASTA AQUI]
 ~~~
 
 Comando utilizaro para iniciar um projeto React.

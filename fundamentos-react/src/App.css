@@ -8,3 +8,15 @@
 .title {
     text-align: center;
 }
+
+table, td, tr {
+    border: solid 1px;
+}
+
+table {
+    width: 100%;
+}
+
+.par{
+    background-color: #dadada;
+}
