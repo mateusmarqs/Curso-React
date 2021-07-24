@@ -15,3 +15,13 @@ Para rodar a aplicação, utiliza-se o seguinte comando:
 ~~~javascript
 npm start
 ~~~
+
+## React Router
+
+Serve para navegar entre os componentes, para instalar basta executar o seguinte comando:
+
+~~~javascript
+npm install react-router-dom
+~~~
+
+Documentação da biblioteca: https://reactrouter.com/
