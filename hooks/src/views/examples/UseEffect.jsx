@@ -28,14 +28,10 @@ const UseEffect = (props) => {
     // setFatorial(calcFatorial(number))
 
     // #02
-    function ParOuImpar(n) {
-        
-    }
-
     const [status, setStatus] = useState(1)
 
     useEffect(() => {
-        setStatus(number % 2 == 0 ? 'Par' : 'Impar')
+        setStatus(number % 2 === 0 ? 'Par' : 'Impar')
     }, [number])
 
     return (
@@ -48,7 +44,7 @@ const UseEffect = (props) => {
                 <div className='center'>
                     <div>
                         <span className="text">Fatorial: </span>
-                        <span className="text red">{fatorial == -1 ? 'Não existe' : fatorial}</span>
+                        <span className="text red">{fatorial === -1 ? 'Não existe' : fatorial}</span>
                     </div>
                     
                     <input className='input' type="number" value={number} onChange={event => setNumber(event.target.value)}/>
